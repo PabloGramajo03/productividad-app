@@ -1,0 +1,23 @@
+# Dependencias (se reinstalan con npm install)
+node_modules/
+
+# Variables de entorno: contienen contraseñas y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos generados al compilar
+dist/
+build/
+
+# Reportes de pruebas
+coverage/
+
+# Logs
+*.log
+
+# Archivos del sistema operativo y del editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
